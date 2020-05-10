@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: stocktrade-svc
+
+server:
+  port: 9090
