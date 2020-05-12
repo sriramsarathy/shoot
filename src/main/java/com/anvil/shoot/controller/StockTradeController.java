@@ -10,4 +10,9 @@ public class StockTradeController {
   public String getKeyStock() {
     return "SAP SE";
   }
+
+  @GetMapping(path = "/hello")
+  public String getHello() {
+    return "Hello !";
+  }
 }
