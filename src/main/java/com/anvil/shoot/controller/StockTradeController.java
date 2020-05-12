@@ -8,6 +8,6 @@ public class StockTradeController {
 
   @GetMapping(path = "/keystock")
   public String getKeyStock() {
-    return "GOOG";
+    return "SAP SE";
   }
 }

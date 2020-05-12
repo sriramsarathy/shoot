@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
        steps {
-          echo 'Starting to build...'
+          echo 'Starting to build.'
           echo 'Build Completed Successfully.'
 
        }
@@ -11,7 +11,7 @@ pipeline {
 
    stage ('Test') {
         steps {
-          echo 'Starting to test...'
+          echo 'Starting to test.'
           echo 'Test Completed Successfully.'
         }
    }
